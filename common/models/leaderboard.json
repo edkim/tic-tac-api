@@ -1,0 +1,25 @@
+{
+  "name": "leaderboard",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "player_x_name": {
+      "type": "string",
+      "required": true
+    },
+    "player_o_name": {
+      "type": "string",
+      "required": true
+    },
+    "winner": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
